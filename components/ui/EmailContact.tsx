@@ -27,7 +27,7 @@ const emailContact = () => {
       });
   };
   return (
-    <div className='flex'>
+    <div className='sm:mt-8'>
       <div className='w-full lg:w-[80%] block'>
 
         <form className='w-full block' onSubmit={sendEmail}>

@@ -5,7 +5,7 @@ import EmailContact from '@/components/ui/EmailContact'
 
 const AssistanceSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-stretch my-5">
+    <section className="flex flex-col lg:flex-row items-stretch my-5 gap-6">
       <div className="lg:w-1/2 w-full">
           <img
             src='/assets/kellyn.png'
