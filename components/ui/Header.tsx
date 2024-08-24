@@ -1,11 +1,6 @@
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 import Link from 'next/link'
-import Trips from '@/components/ui/Trips'
-import Transport from '@/components/ui/Transport'
-import Gallery from '@/components/ui/Gallery'
-import About from '@/components/ui/About'
-import Contact from '@/components/ui/Contact'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -40,11 +35,12 @@ const Header = ({ className }: HeaderProps) => {
         </Link>
         <div className='md:flex items-center gap-2 lg:gap-6 hidden'>
 
-            <Trips />
-            <Transport />
-            <Gallery />
-            <About />
-            <Contact />
+            <Link href='/trips'>Trip</Link>
+            <Link href='/transport'>Transport</Link>
+            <Link href='/gallery'>Gallery </Link>
+            <Link href='/about'>About</Link>
+            <Link href='/contact'>Contact Us</Link>
+
 
         </div>
 
@@ -60,11 +56,11 @@ const Header = ({ className }: HeaderProps) => {
           /></DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>Trips</DropdownMenuItem>
-            <DropdownMenuItem>Transport</DropdownMenuItem>
-            <DropdownMenuItem>Gallery</DropdownMenuItem>
-            <DropdownMenuItem>About</DropdownMenuItem>
-            <DropdownMenuItem>Contact Us</DropdownMenuItem>
+            <DropdownMenuItem><Link href='/trips'>Trips</Link></DropdownMenuItem>
+            <DropdownMenuItem><Link href='/transport'>Transport</Link></DropdownMenuItem>
+            <DropdownMenuItem><Link href='/gallery'>Gallery </Link></DropdownMenuItem>
+            <DropdownMenuItem><Link href='/about'>About</Link></DropdownMenuItem>
+            <DropdownMenuItem><Link href='/contact'>Contact Us</Link></DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
 

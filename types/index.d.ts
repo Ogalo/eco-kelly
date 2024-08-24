@@ -27,6 +27,11 @@ declare type CreateDocumentParams = {
   userId: string;
   email: string;
 };
+declare type TripCardProps = {
+  img: string;
+  title: string;
+  description: string;
+};
 
 declare type User = {
   id: string;
