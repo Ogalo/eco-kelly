@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-[#ff7b24] text-white py-10 w-full">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mt-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <h3 className="text-lg font-semibold mb-4">Eco Safaris</h3>
           <ul className="space-y-2">
@@ -46,6 +46,7 @@ const Footer = () => {
             P: +254 725141999
           </address>
         </div>
+
       </div>
     </footer>
   );

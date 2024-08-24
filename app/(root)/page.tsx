@@ -6,6 +6,7 @@ import AssistanceSection from '@/components/ui/AssistanceSection'
 import LatestPackages from '@/components/ui/LatestPackages'
 import Footer from '@/components/ui/Footer'
 import HeroSection from '@/components/ui/HeroSection'
+import Rights from '@/components/ui/Rights'
 
 
 
@@ -25,6 +26,7 @@ const Home = async () => {
       <AssistanceSection />
       <LatestPackages />
       <Footer />
+      <Rights />
     </main>
 
   )
