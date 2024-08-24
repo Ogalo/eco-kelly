@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#ff7b24] text-white py-10 w-full">
       <div className="container mt-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
-          <h3 className="text-lg font-semibold mb-4">Eco Safaris</h3>
+          <h3 className="text-lg font-semibold mb-4">Kellyn Eco Safaris</h3>
           <ul className="space-y-2">
             <li><a href="#" className="hover:underline">Why Discover Kenya</a></li>
             <li><a href="#" className="hover:underline">Terms & conditions</a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li><a href="#" className="hover:underline">Island Tours</a></li>
             <li><a href="#" className="hover:underline">Adventures</a></li>
-            <li><a href="#" className="hover:underline">Shows</a></li>
+            
             <li><a href="#" className="hover:underline">Fishing</a></li>
             <li><a href="#" className="hover:underline">Diving Tips</a></li>
             <li><a href="#" className="hover:underline">City Tour</a></li>
