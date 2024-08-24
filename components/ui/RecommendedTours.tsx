@@ -48,7 +48,7 @@ const RecommendedTours = () => {
   ];
 
   return (
-    <section className="py-5 px-15 mt-10">
+    <section className="py-5 px-15 mt-1">
       <div className="container">
         <div className="flex-wrap justify-between items-center mb-8">
           <h2 className="text-1xl lg:text-2xl font-bold">Recommended Tours</h2>

@@ -36,10 +36,8 @@ const LatestPackages = () => {
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-bold">Latest Packages</h2>
           <div className="space-x-4">
-            <a href="#" className="text-blue-500 font-semibold hover:underline">All Trips</a>
-            <a href="#" className="text-gray-500 font-semibold hover:underline">Camping Trips</a>
-            <a href="#" className="text-gray-500 font-semibold hover:underline">Island Tour</a>
-            <a href="#" className="text-gray-500 font-semibold hover:underline">Adventure Tour</a>
+            <a href="/trips" className="text-blue-500 font-semibold hover:underline">All Trips</a>
+            
           </div>
         </div>
         <div className="relative">

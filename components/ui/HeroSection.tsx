@@ -1,4 +1,3 @@
-import SearchBar from "./SearchBar"
 import Socials from "./Socials"
 
 
@@ -20,7 +19,7 @@ const HeroSection = () => {
 
       </div>
 
-      <SearchBar />
+
 
     </div>
   )
