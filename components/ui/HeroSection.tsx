@@ -1,3 +1,4 @@
+import MyCarousel from "./MyCarousel"
 import Socials from "./Socials"
 
 
@@ -8,20 +9,30 @@ const HeroSection = () => {
 
 
   return (
-    <div className="hero flex-wrap md:flex-col justify-between items-center lg:px-10 mt-[-25px] px-1">
+    <>
+    <section className='px-2 md:px-20 py-3'>
+    <div className="flex max-xl:flex-col gap-20">
 
-      <div className='flex flex-col lg:gap-4 gap-0.5 pt-[150px] justify-center'>
-        <h1 className='font-bold md:text-3xl color-dark-100'>Book your Next Trip with Eco-Safaris</h1>
-        <p className='pb-[10px] text-sm'>We offer only the best & excellent services</p>
+      <div className='flex flex-col justify-center gap-6'>
+        <div>
+          <h1 className='font-bold text-2xl color-dark-100 '>Book your Next Trip with Kellyn Eco-Safaris</h1>
+          <p className='pb-[10px] text-sm  italic w-full'>Experience personalized eco-friendly tours, wildlife safaris, and cultural explorations across Africa, designed to immerse you in nature.</p>
+
+        </div>
         <button className="bg-[#ff7b24] hover:bg-[#f3b389] text-white font-bold py-2 px-4 sm:px-2 sm:py-1 rounded w-[110px] text-sm lg:w-[100px]">View Offers</button>
 
         <Socials />
 
       </div>
 
+      <MyCarousel />
+
 
 
     </div>
+
+    </section>
+    </>
   )
 }
 

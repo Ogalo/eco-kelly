@@ -27,13 +27,13 @@ const emailContact = () => {
       });
   };
   return (
-    <div className='sm:mt-8'>
+    <>
       <div className='w-full lg:w-[80%] block'>
 
         <form className='w-full block' onSubmit={sendEmail}>
         <h1 className="text-2xl font-semibold text-black">Need Assistance</h1>
-        <p className="text-sm font-semibold text-black mb-6">Let us help you book your next trip. Our agents will be in touch shortly.</p>
-        <div className="mb-4">
+        <p className="text-sm font-semibold text-black ">Let us help you book your next trip. Our agents will be in touch shortly.</p>
+        <div className="mb-2">
           <label className="block text-gray-300 text-sm mb-2" htmlFor="name">
             Enter your name
           </label>
@@ -50,7 +50,7 @@ const emailContact = () => {
           />
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-gray-300 text-sm mb-2" htmlFor="email">
             Email
           </label>
@@ -68,7 +68,7 @@ const emailContact = () => {
           />
         </div>
 
-        <div className="mb-6">
+        <div className="mb-3">
           <label className="block text-gray-300 text-sm mb-2" htmlFor="message">
             Enter your message
           </label>
@@ -95,7 +95,7 @@ const emailContact = () => {
         </form>
 
       </div>
-    </div>
+    </>
   )
 }
 

@@ -5,28 +5,28 @@ import PackageCard from './PackageCard';
 const LatestPackages = () => {
   const packages = [
     {
-      image: '/assets/img-9.jpg',
+      image: '/assets/img-9.jpeg',
       title: 'Team Building',
       description: 'Team building exercises',
-      price: 'Ksh 80,000',
+      price: 'Ksh 50,000',
     },
     {
-      image: '/assets/img-10.jpg',
-      title: 'Safari Drives Girls Tour',
+      image: '/assets/img-10.jpeg',
+      title: 'Safari Drives Tour',
       description: 'Go for a game drive with your friends',
-      price: 'Ksh 8,999 per person',
+      price: 'Ksh 8,999',
     },
     {
-      image: '/assets/img-11.jpg',
+      image: '/assets/img-11.jpeg',
       title: 'Abai Lounge Tour',
       description: 'Private day trip that guarantees a fulfilling thrill',
       price: 'Ksh 2,000',
     },
     {
-      image: '/assets/img-12.jpg',
+      image: '/assets/img-12.jpeg',
       title: 'Jangwani Camping Tour',
       description: 'A camping experience like no other',
-      price: 'Ksh 2,000',
+      price: 'Ksh 3,599',
     },
   ];
 
@@ -37,7 +37,7 @@ const LatestPackages = () => {
           <h2 className="text-2xl font-bold">Latest Packages</h2>
           <div className="space-x-4">
             <a href="/trips" className="text-blue-500 font-semibold hover:underline">All Trips</a>
-            
+
           </div>
         </div>
         <div className="relative">

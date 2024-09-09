@@ -5,14 +5,14 @@ import EmailContact from '@/components/ui/EmailContact'
 
 const AssistanceSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-stretch my-5 gap-6">
-      <div className="lg:w-1/2 w-full">
-          <img
+    <section className="flex max-xl:flex-col gap-16">
+      <div className="lg:w-1/2 ">
+          <Image
             src='/assets/kellyn.png'
             alt='kelly main image'
-            width='350px'
-            height='250px'
-            className='w-full h-full object-cover'
+            width={484}
+            height={484}
+            className='object-contain pt-[100px]'
           />
 
       </div>
